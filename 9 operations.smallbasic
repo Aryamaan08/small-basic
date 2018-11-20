@@ -1,0 +1,28 @@
+'I just wanna end here. I will definitely add on to this later or make an intermediate section
+TextWindow.WriteLine("Welcome to Operations!")
+TextWindow.WriteLine("We will be taking numbers and operating with them.")
+Start: 'View line 23 to know more
+TextWindow.Write("Enter a number: ")
+firstNumber = TextWindow.ReadNumber()
+TextWindow.Write("Enter another number: ")
+secondNumber = TextWindow.ReadNumber()
+sum = firstNumber + secondNumber
+difference = firstNumber - secondNumber
+product = firstNumber * secondNumber
+quotient = Math.Ceiling(firstNumber / secondNumber) 'View notes in the readme or stay tuned for more uses of Math.
+TextWindow.WriteLine("The sum is " + sum)
+TextWindow.WriteLine("The difference is " + difference)
+TextWindow.WriteLine("The product is " + product)
+TextWindow.WriteLine("The quotient is " + quotient + ". Note that it is rounded up")
+Again:
+TextWindow.Write("Would you like to try again? Say 'y' for yes and 'n' for no. ")
+tryAgain = TextWindow.Read()
+If tryAgain = "y" Then
+  Goto Start 'Start is a predefined label which is like: this part is separate and if used with
+  'Goto then go to that part of the code
+ElseIf tryAgain = "n" Then
+  TextWindow.WriteLine("Thanks for using Operations!")
+Else 'we need this otherwise someone may write something totally different
+  TextWindow.WriteLine("You have not entered 'y' or 'n'")
+  Goto Again
+EndIf

@@ -1,0 +1,9 @@
+TextWindow.Write("Enter your name: ")'I'll explain why I used Write instead of 
+'WriteLine in a minute
+name = TextWindow.Read() 'If I wrote WriteLine, it would print in a new line.
+'Izf you have used Ruby, puts and print behave in a similar way.
+TextWindow.Write("Enter your lucky number: ")
+number = TextWindow.ReadNumber() 'ReadNumber only accepts numbers as values.
+TextWindow.WriteLine("Hi, I am " + name + "! My lucky number is " + number)
+'String concatenation is the act of joining strings together. This was done using +.
+'You can mix in strings and variables while concatenating

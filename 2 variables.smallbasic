@@ -1,0 +1,5 @@
+my_variable = "Aryamaan" 'Unlike JavaScript, Small Basic doesn't need a keyword
+'var to define a variable
+my_number_variable = 27
+TextWindow.WriteLine(my_variable)
+TextWindow.WriteLine(my_number_variable)

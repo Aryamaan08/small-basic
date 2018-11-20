@@ -1,0 +1,6 @@
+'Comments are written with an apostrophe.
+'There are no multi-line comments
+'I can only put some information here.
+'Small Basic was made by Vijaye Raji in 2008
+'It's stable version was released in 2015
+TextWindow.WriteLine("The comments got ignored!")

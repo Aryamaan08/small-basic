@@ -1,0 +1,9 @@
+'What use is an application if it only runs at one hour of the day?
+If Clock.Hour <= 12 Then
+  TextWindow.WriteLine("It is morning")
+Else
+  TextWindow.WriteLine("It isn't morning")
+EndIf
+'Next we will make our application slightly better. Notice that the application will
+'always run. Another thing I forgot to tell you is that Clock Hour follows 24 hour time.
+'So make sure to double-check your code for clock errors.

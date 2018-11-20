@@ -1,0 +1,4 @@
+myArray[0] = "Hello" 'Arrays have to be entered like so.
+myArray[1] = "Good day" 'Also, arrays start from 0 and not 1.
+myArray[2] = "How do you do"
+TextWindow.WriteLine(myArray[1]) 'Good day

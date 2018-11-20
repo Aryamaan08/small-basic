@@ -1,0 +1,10 @@
+'Now, let's make the last part of our clock app.
+If Clock.Hour <= 12 Then
+  TextWindow.WriteLine("Good Morning!")
+ElseIf Clock.Hour <= 17 Then 'The ElseIf statement is like a second if. If needs a 
+'condition, but if it isn't satisfied, the Else statement runs. ElseIf checks if the If statement
+'is false, but another condition is satisfied, run it, else run the Else statement.  
+  TextWindow.WriteLine("Good Afternoon!")
+Else
+  TextWindow.WriteLine("Good Evening!")
+EndIf

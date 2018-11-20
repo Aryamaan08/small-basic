@@ -1,0 +1,6 @@
+If Clock.Hour = 22 Then 'Like a few languages, Small Basic also needs a then.
+  'Languages like Python use a colon (:) instead of a then.
+  TextWindow.WriteLine("Shouldn't you be sleeping already?")
+EndIf 'If you have used Ruby before, you will be familiar with endif. (end)
+'Unless you execute this at 10pm, you won't find any text. In fact, the console doesn't open
+'up at all if you use the application

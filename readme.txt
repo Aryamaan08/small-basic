@@ -1,5 +1,6 @@
 Hello!
 Welcome to my Small Basic intro. I teach you basic Small Basic commands, etc.
+smallbasic.com
 Notes:
 1) A  variable is like a box with a value inside it. You can take that value outside a box by overwriting it.
 eg-

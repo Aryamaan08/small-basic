@@ -1,0 +1,13 @@
+Sub HelloName 'Subroutine is like a function (in Python, JS etc.)
+  'Subroutines make our work easier, so if we have to carry out a few lines multiple times,
+  'We can use just a word or phrase
+  TextWindow.WriteLine("Hello " + name) ' we can assume a variable and name it anything we want, but for simplicity's sake I'll call it name
+EndSub
+'The syntax is as follows:
+'keyword (sub) name of subroutine
+'Lines to be executed
+'EndSub
+name = TextWindow.Read()
+HelloName() 'Output: Hello Aryamaan
+'We can't just make a subroutine and expect SB to execute it! So, we need to call it.
+'Call the sub by its name and pass an argument

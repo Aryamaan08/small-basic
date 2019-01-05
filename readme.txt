@@ -17,3 +17,4 @@ TextWindow.WriteLine(ceiling) 'prints out 9 as it is rounded down.
 There are other math functions, but only ceiling was used in the tutorial. Floor is a counterpart to ceiling, so I included it.
 Contact
 You can contact me at my email- aryamaan.27@gmail.com
+Oh, and smallbasic files are saved as .sb or .smallbasic.
